@@ -2,7 +2,7 @@
 
 BPLocalRun 离线版 v0.2.2，数据包 2026.11.04.2。
 
-下载：https://github.com/epstomai/BPO/releases/latest 里的 **BPO-v0.2.2.zip**
+下载：**[BPO-v0.2.2.zip](https://github.com/epstomai/BPO/releases/download/v0.2.2/BPO-v0.2.2.zip)**
 （启动器、使用说明和数据包都在里面；国内下载慢时也可以从网盘拿同一个 zip）
 
 ## 需要准备
