@@ -1,10 +1,10 @@
 # BPO · BLUE PROTOCOL 离线启动器
 
-BPLocalRun 离线版 v0.2.6，数据包 2026.11.05。
+BPLocalRun 离线版 v0.2.7，数据包 2026.11.05。
 
-下载：**[BPO-v0.2.6.zip](https://github.com/epstomai/BPO/releases/download/v0.2.6/BPO-v0.2.6.zip)**
+下载：**[BPO-v0.2.7.zip](https://github.com/epstomai/BPO/releases/download/v0.2.7/BPO-v0.2.7.zip)**
 （启动器、使用说明和数据包都在里面）
-国内下载慢：[夸克网盘](https://pan.quark.cn/s/bbfdf46c6e80)（同一个 zip，不用提取码）
+国内下载慢：[夸克网盘](https://pan.quark.cn/s/f7bb8ae6014f)（同一个 zip，不用提取码）
 
 ## 需要准备
 
@@ -17,7 +17,7 @@ BPLocalRun 离线版 v0.2.6，数据包 2026.11.05。
 
 ## 安装
 
-1. 新建一个文件夹（不要放在 Program Files 里），把 BPO-v0.2.6.zip 解压进去，
+1. 新建一个文件夹（不要放在 Program Files 里），把 BPO-v0.2.7.zip 解压进去，
    里面是 BPLocalRun.exe、使用说明.txt 和数据包 bplr-data-2026.11.05.zip（数据包不用解压）。
 2. 客户端文件夹（里面有 BLUEPROTOCOL.exe、BLUEPROTOCOL、Engine）放在同一个文件夹里
    或它的上级，启动器会自动找到；找不到就在「设置与更新」里选择。
