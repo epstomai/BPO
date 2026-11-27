@@ -43,7 +43,7 @@ Not shipped with the launcher; download them yourself.
 
 | Mod | Author | Description | Download |
 |-----|------|------|------|
-| Remove the plaza bench elder | Arthur | Removes the old man sitting on the bench in the Pioneer Bureau (开拓局) plaza. Replaces only Maps/cty/cty01/sublevel/cty01_EST. Disabled by default. | [remove-plaza-elder.zip](https://github.com/epstomai/BPO/raw/main/mods/remove-plaza-elder.zip) |
+| Remove the plaza bench elder | Arthur | Removes the old man sitting on the bench in the Pioneer Bureau plaza. Replaces only Maps/cty/cty01/sublevel/cty01_EST. Disabled by default. | [remove-plaza-elder.zip](https://github.com/epstomai/BPO/raw/main/mods/remove-plaza-elder.zip) |
 
 ### Built-in mods
 
