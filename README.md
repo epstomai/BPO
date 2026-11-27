@@ -13,7 +13,7 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 ### 需要准备
 
 1. BLUE PROTOCOL 最终版客户端（BPRP 发布的客户端即可）。
-   BLUEPROTOCOL\Binaries\Win64\BLUEPROTOCOL-Win64-Shipping.exe 的 SHA-256 应为
+   `BLUEPROTOCOL\Binaries\Win64\BLUEPROTOCOL-Win64-Shipping.exe` 的 SHA-256 应为
    3e373bf5cebe9742e1300fa109f45b9bba131842498a62da1b5f33a49a9fb735
    版本不对时启动器会直接提示，不会进游戏。
 2. Windows 10/11 64 位。启动器需要 Microsoft Edge WebView2 运行库（Win11 自带；
@@ -25,7 +25,7 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
    里面是 BPLocalRun.exe、使用说明.txt 和数据包 bplr-data-2026.11.24.zip（数据包不用解压）。
 2. 客户端文件夹（里面有 BLUEPROTOCOL.exe、BLUEPROTOCOL、Engine）放在同一个文件夹里
    或它的上级，启动器会自动找到；找不到就在「设置与更新」里选择。
-   客户端目录要可写：汉化等 MOD 的 pak 会放进 BLUEPROTOCOL\Content\Paks\~mods。
+   客户端目录要可写：汉化等 MOD 的 pak 会放进 `BLUEPROTOCOL\Content\Paks\~mods`。
 3. 打开 BPLocalRun.exe。第一次会导入（或下载）数据包并自动重启。
 4. 注册一个本机账号（只存在这台电脑上），点「开始游戏」。没有角色时会走原版开场并创建角色。
 
@@ -47,7 +47,7 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 - 手动：关闭启动器，用新的 BPLocalRun.exe 覆盖旧的；新数据包 zip 放到 BPLocalRun.exe 旁边，
   打开启动器会自动导入。
 
-存档在 data\state 和 data\sidecar，更新不会动它们。想备份就复制整个 data 文件夹。
+存档在 `data\state` 和 `data\sidecar`，更新不会动它们。想备份就复制整个 data 文件夹。
 
 ### 反馈问题
 
@@ -69,7 +69,7 @@ appear, with their meaning in brackets.
 ### Requirements
 
 1. The final BLUE PROTOCOL client (the one released by BPRP works).
-   The SHA-256 of BLUEPROTOCOL\Binaries\Win64\BLUEPROTOCOL-Win64-Shipping.exe must be
+   The SHA-256 of `BLUEPROTOCOL\Binaries\Win64\BLUEPROTOCOL-Win64-Shipping.exe` must be
    3e373bf5cebe9742e1300fa109f45b9bba131842498a62da1b5f33a49a9fb735
    With another version the launcher says so and does not start the game.
 2. 64-bit Windows 10 or 11. The launcher needs the Microsoft Edge WebView2 Runtime
@@ -85,7 +85,7 @@ appear, with their meaning in brackets.
    same folder or one of its parents and the launcher finds it; otherwise choose it under
    「设置与更新」 (Settings & Updates).
    The client folder must be writable: mod paks (the Chinese translation among them) go to
-   BLUEPROTOCOL\Content\Paks\~mods.
+   `BLUEPROTOCOL\Content\Paks\~mods`.
 3. Open BPLocalRun.exe. The first start imports (or downloads) the data pack and restarts
    the launcher.
 4. Register a local account (it exists on this computer only) and press 「开始游戏」
@@ -114,7 +114,7 @@ online mode and no multiplayer; accounts and saves stay on this computer.
 - Manual: close the launcher and overwrite BPLocalRun.exe with the new one; put a new data
   pack zip next to BPLocalRun.exe and the launcher imports it when opened.
 
-Saves are in data\state and data\sidecar; updates leave them alone. To back them up, copy
+Saves are in `data\state` and `data\sidecar`; updates leave them alone. To back them up, copy
 the whole data folder.
 
 ### Reporting problems
