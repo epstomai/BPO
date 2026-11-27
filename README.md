@@ -63,8 +63,8 @@ BPLocalRun offline edition v0.2.19, data pack 2026.11.24.
 Download: **[BPO-v0.2.19.zip](https://github.com/epstomai/BPO/releases/download/v0.2.19/BPO-v0.2.19.zip)**
 (the launcher, this guide and the data pack are all inside).
 
-The launcher's interface is in Chinese only. Buttons and pages are named below as they
-appear, with their meaning in brackets.
+The launcher speaks English, Japanese and Simplified Chinese and follows the system language;
+change it under **Settings** → **Interface language**.
 
 ### Requirements
 
@@ -79,33 +79,33 @@ appear, with their meaning in brackets.
 ### Installation
 
 1. Make a new folder (not under Program Files) and extract BPO-v0.2.19.zip into it.
-   It holds BPLocalRun.exe, 使用说明.txt (this guide) and the data pack bplr-data-2026.11.24.zip
+   It holds BPLocalRun.exe, this guide as a text file and the data pack bplr-data-2026.11.24.zip
    (leave the data pack zipped).
 2. Put the client folder (the one with BLUEPROTOCOL.exe, BLUEPROTOCOL and Engine) in the
    same folder or one of its parents and the launcher finds it; otherwise choose it under
-   「设置与更新」 (Settings & Updates).
+   **Settings**.
    The client folder must be writable: mod paks (the Chinese translation among them) go to
    `BLUEPROTOCOL\Content\Paks\~mods`.
 3. Open BPLocalRun.exe. The first start imports (or downloads) the data pack and restarts
    the launcher.
-4. Register a local account (it exists on this computer only) and press 「开始游戏」
-   (Start game). Without a character you play the original opening and create one.
+4. **Register** a local account (it exists on this computer only) and press **Start game**.
+   Without a character you play the original opening and create one.
 
 Antivirus: the launcher puts OrbitCore.dll, xinput1_3.dll and dwmapi.dll (UE4SS) into the
 game folder, where the game loads them; some antivirus programs flag them. If they are
 blocked, add this folder and the client folder to the exclusions.
 
 Network: at start the launcher asks GitHub for updates (can be turned off under
-「设置与更新」); 「发送给作者」 (Send to author) uploads a feedback package. There is no
-online mode and no multiplayer; accounts and saves stay on this computer.
+**Settings**); **Send to author** uploads a feedback package. There is no online mode and
+no multiplayer; accounts and saves stay on this computer.
 
 ### Rules
 
-「规则」 (Rules) at the bottom of the main page:
-- 改动 (Modified): the save manager's settings take effect: difficulty, boosts, EXP rate,
+**Rules** at the bottom of the main page:
+- **Modified**: the save manager's settings take effect: difficulty, bonuses, XP multiplier,
   seasonal decorations, always-open dungeons and so on (default).
-- 原版 (Original): none of them apply, as in the future online edition. Please choose
-  this when you help with testing.
+- **Original**: none of them apply, as in the future online edition. Please choose this
+  when you help with testing.
 
 ### Updates
 
@@ -114,15 +114,16 @@ online mode and no multiplayer; accounts and saves stay on this computer.
 - Manual: close the launcher and overwrite BPLocalRun.exe with the new one; put a new data
   pack zip next to BPLocalRun.exe and the launcher imports it when opened.
 
-Saves are in `data\state` and `data\sidecar`; updates leave them alone. To back them up, copy
-the whole data folder.
+Saves are in `data\state` and `data\sidecar`; updates leave them alone. To back them up,
+copy the whole data folder.
 
 ### Reporting problems
 
-Close the game, then under 「设置与更新」 → 「反馈问题」 (Settings & Updates → Report a
-problem) describe where you were, what you did and what you saw, and press 「发送给作者」
-(Send to author) to upload it (the launcher also offers this after the game crashed).
-If sending fails, or to send it yourself, press 「只导出到本地」 (Export only) and send the
-zip from the 「反馈包」 folder in the program folder to the author.
+Close the game, then under **Settings** → **Report a problem** describe where you were,
+what you did and what you saw, and press **Send to author** to upload it (the launcher also
+offers this after the game crashed).
+If sending fails, or to send it yourself, press **Export locally**: the launcher saves the
+zip in the feedback folder inside the program folder and opens that folder; send the zip
+to the author.
 The package holds the logs of the last 3 game sessions, crash reports, request records and
 the current character's save, but no passwords.
