@@ -1,4 +1,8 @@
-# BPO · BLUE PROTOCOL 离线启动器
+# BPO · BLUE PROTOCOL 离线启动器 / Offline Launcher
+
+[中文](#中文) · [English](#english)
+
+## 中文
 
 BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 
@@ -6,7 +10,7 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 （启动器、使用说明和数据包都在里面）
 国内下载慢：[加速下载](https://bpo.knia.top/BPO-v0.2.19.zip)（推荐）或 [夸克网盘](https://pan.quark.cn/s/4ddd3e4a9ec5)，都是同一个 zip，不用提取码
 
-## 需要准备
+### 需要准备
 
 1. BLUE PROTOCOL 最终版客户端（BPRP 发布的客户端即可）。
    BLUEPROTOCOL\Binaries\Win64\BLUEPROTOCOL-Win64-Shipping.exe 的 SHA-256 应为
@@ -15,7 +19,7 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 2. Windows 10/11 64 位。启动器需要 Microsoft Edge WebView2 运行库（Win11 自带；
    Win10 打开启动器一片空白或打不开时，到微软官网安装 WebView2 Runtime）。
 
-## 安装
+### 安装
 
 1. 新建一个文件夹（不要放在 Program Files 里），把 BPO-v0.2.19.zip 解压进去，
    里面是 BPLocalRun.exe、使用说明.txt 和数据包 bplr-data-2026.11.24.zip（数据包不用解压）。
@@ -31,13 +35,13 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 联网：启动时访问 GitHub 检查和下载更新（「设置与更新」里可以关掉）；
 点「发送给作者」时上传反馈包。没有在线模式、没有联机，账号和存档都在本机。
 
-## 规则
+### 规则
 
 主页底部「规则」：
 - 改动：存档管理里的难度、加成、经验倍率、季节装饰、常开副本等设置生效（默认）。
 - 原版：这些都不生效，和以后的在线版规则一致。帮忙测试时建议选「原版」。
 
-## 更新
+### 更新
 
 - 自动：启动器启动时检查 GitHub，有新版本会询问，确认后自动下载、替换并重启。
 - 手动：关闭启动器，用新的 BPLocalRun.exe 覆盖旧的；新数据包 zip 放到 BPLocalRun.exe 旁边，
@@ -45,9 +49,80 @@ BPLocalRun 离线版 v0.2.19，数据包 2026.11.24。
 
 存档在 data\state 和 data\sidecar，更新不会动它们。想备份就复制整个 data 文件夹。
 
-## 反馈问题
+### 反馈问题
 
 关闭游戏后，在「设置与更新」→「反馈问题」里写清楚在哪、做了什么、看到了什么，
 点「发送给作者」就会直接上传（游戏崩溃退出后启动器也会主动提示）。
 发送失败或想自己发时，点「只导出到本地」，把程序目录「反馈包」文件夹里的 zip 发给作者。
 反馈包里有最近 3 次游戏的日志、崩溃报告、请求记录和当前角色的存档，不含密码。
+
+## English
+
+BPLocalRun offline edition v0.2.19, data pack 2026.11.24.
+
+Download: **[BPO-v0.2.19.zip](https://github.com/epstomai/BPO/releases/download/v0.2.19/BPO-v0.2.19.zip)**
+(the launcher, this guide and the data pack are all inside).
+
+The launcher's interface is in Chinese only. Buttons and pages are named below as they
+appear, with their meaning in brackets.
+
+### Requirements
+
+1. The final BLUE PROTOCOL client (the one released by BPRP works).
+   The SHA-256 of BLUEPROTOCOL\Binaries\Win64\BLUEPROTOCOL-Win64-Shipping.exe must be
+   3e373bf5cebe9742e1300fa109f45b9bba131842498a62da1b5f33a49a9fb735
+   With another version the launcher says so and does not start the game.
+2. 64-bit Windows 10 or 11. The launcher needs the Microsoft Edge WebView2 Runtime
+   (included in Windows 11; on Windows 10, if the launcher stays blank or does not open,
+   install the WebView2 Runtime from Microsoft's website).
+
+### Installation
+
+1. Make a new folder (not under Program Files) and extract BPO-v0.2.19.zip into it.
+   It holds BPLocalRun.exe, 使用说明.txt (this guide) and the data pack bplr-data-2026.11.24.zip
+   (leave the data pack zipped).
+2. Put the client folder (the one with BLUEPROTOCOL.exe, BLUEPROTOCOL and Engine) in the
+   same folder or one of its parents and the launcher finds it; otherwise choose it under
+   「设置与更新」 (Settings & Updates).
+   The client folder must be writable: mod paks (the Chinese translation among them) go to
+   BLUEPROTOCOL\Content\Paks\~mods.
+3. Open BPLocalRun.exe. The first start imports (or downloads) the data pack and restarts
+   the launcher.
+4. Register a local account (it exists on this computer only) and press 「开始游戏」
+   (Start game). Without a character you play the original opening and create one.
+
+Antivirus: the launcher puts OrbitCore.dll, xinput1_3.dll and dwmapi.dll (UE4SS) into the
+game folder, where the game loads them; some antivirus programs flag them. If they are
+blocked, add this folder and the client folder to the exclusions.
+
+Network: at start the launcher asks GitHub for updates (can be turned off under
+「设置与更新」); 「发送给作者」 (Send to author) uploads a feedback package. There is no
+online mode and no multiplayer; accounts and saves stay on this computer.
+
+### Rules
+
+「规则」 (Rules) at the bottom of the main page:
+- 改动 (Modified): the save manager's settings take effect: difficulty, boosts, EXP rate,
+  seasonal decorations, always-open dungeons and so on (default).
+- 原版 (Original): none of them apply, as in the future online edition. Please choose
+  this when you help with testing.
+
+### Updates
+
+- Automatic: the launcher checks GitHub at start and asks when there is a new version;
+  once you agree it downloads it, replaces itself and restarts.
+- Manual: close the launcher and overwrite BPLocalRun.exe with the new one; put a new data
+  pack zip next to BPLocalRun.exe and the launcher imports it when opened.
+
+Saves are in data\state and data\sidecar; updates leave them alone. To back them up, copy
+the whole data folder.
+
+### Reporting problems
+
+Close the game, then under 「设置与更新」 → 「反馈问题」 (Settings & Updates → Report a
+problem) describe where you were, what you did and what you saw, and press 「发送给作者」
+(Send to author) to upload it (the launcher also offers this after the game crashed).
+If sending fails, or to send it yourself, press 「只导出到本地」 (Export only) and send the
+zip from the 「反馈包」 folder in the program folder to the author.
+The package holds the logs of the last 3 game sessions, crash reports, request records and
+the current character's save, but no passwords.
